@@ -53,7 +53,7 @@ function App() {
         "Dynamic simulation and stress analysis",
         "Gesture-based control with 6 distinct commands"
       ],
-      image: "🤖",
+      image: "",
       links: {
         github: "https://github.com/Viranjan-de-silva/Computer-Vision_Based_Human_arm_angle_measurement_system"
       }
@@ -71,7 +71,7 @@ function App() {
         "Topology-optimized link profiles",
         "Custom control pendant with OLED display"
       ],
-      image: "🦾",
+      image: "",
       links: {
         Github: "",
       }
