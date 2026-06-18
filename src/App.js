@@ -425,22 +425,9 @@ function App() {
               </div>
               
               <p className="experience-description">
-                Yet to write
+                Conducting lectures and tutorial sessions for the subjects Mechanics of Machines, Mechanical Systems, and Control System.
+                Conducting the MATLAB workshops for Material and Mechanical Technology students. Supervising the finaly year projects.
               </p>
-
-              <div className="experience-achievements">
-                <h5>Key Contributions:</h5>
-                <ul>
-                  <li>Developed portable inverter fan testing device to diagnose malfunctioning 
-                  fans in quay cranes, reducing maintenance downtime</li>
-                  <li>Designed and implemented computer vision-based trailer positioning system 
-                  to optimize container loading efficiency</li>
-                  <li>Collaborated with maintenance and operations teams to identify automation 
-                  opportunities</li>
-                  <li>Gained hands-on experience with industrial-scale automation systems and 
-                  port terminal operations</li>
-                </ul>
-              </div>
             </div>
 
 
