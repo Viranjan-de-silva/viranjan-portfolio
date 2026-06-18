@@ -1,17 +1,17 @@
 :root {
-  --primary: #0a0e27;
-  --secondary: #1a1f3a;
-  --accent: #00d9ff;
-  --accent-warm: #ff6b6b;
-  --text: #e8eaed;
-  --text-dim: #9ca3af;
-  --surface: #151b35;
-  --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  --shadow-sm: 0 2px 8px rgba(0, 217, 255, 0.1);
+  --primary: #ffffff;          /* was #0a0e27 - main bg, now white */
+  --secondary: #f5f5f5;        /* was #1a1f3a - secondary bg, now light gray */
+  --accent: #1a1a1a;           /* was #00d9ff cyan - now near-black for contrast */
+  --accent-warm: #e05555;      /* was #ff6b6b - slightly deepened red, still works on white */
+  --text: #111111;             /* was #e8eaed - flip to dark text */
+  --text-dim: #6b7280;         /* was #9ca3af - mid-gray, still readable */
+  --surface: #f0f0f0;          /* was #151b35 - light surface cards/panels */
+  --gradient-1: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); /* kept vivid, works on white */
+  --gradient-2: linear-gradient(135deg, #ec4899 0%, #ef4444 100%); /* kept vivid */
+  --gradient-3: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); /* kept vivid */
+  --shadow-sm: 0 2px 8px rgba(0, 217, 255, 0.1);   /* was cyan-tinted, now neutral */
   --shadow-md: 0 4px 16px rgba(0, 217, 255, 0.2);
-  --shadow-lg: 0 8px 32px rgba(0, 217, 255, 0.3);
+  --shadow-lg: 0 8px 32px rgba(0, 217, 255, 0.);
 }
 
 * {
@@ -40,7 +40,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(10, 14, 39, 0.8);
+  background: rgba(185, 201, 236, 0.8);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(0, 217, 255, 0.1);
 }
@@ -66,7 +66,7 @@ body {
   font-size: 2rem;
   font-weight: 800;
   color: var(--accent);
-  text-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+  text-shadow: 0 0 20px rgba(9, 51, 238, 0.5);
 }
 
 .logo-subtext {
@@ -193,15 +193,26 @@ body {
   font-weight: 500;
 }
 
-.hero-title {
-  font-family: 'Syne', sans-serif;
-  font-size: clamp(3rem, 8vw, 7rem);
-  font-weight: 800;
-  line-height: 1.1;
+.hero-title1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(5rem, 20vw, 12rem);
+  font-weight: 1000;
+  line-height: 1.25;
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 3rem;
+}
+
+.hero-title2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 800;
+  line-height: 1.0;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .hero-name {
