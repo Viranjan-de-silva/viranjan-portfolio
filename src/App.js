@@ -62,8 +62,8 @@ function App() {
       id: 2,
       title: "Redundant Robotic Manipulator with Oblique Swivel Joints",
       category: "Advanced Robotics",
-      description: "7-DoF manipulator with adaptable access paths for confined spaces, integrated with Intel RealSense D435i RGB-D camera for vision-based navigation.",
-      technologies: ["ROS", "Path Planning", "3D Vision", "ICP Algorithm", "Topology Optimization"],
+      description: "7-DoF manipulator with adaptable access paths for confined spaces, integrated with Intel RealSense D435i RGB-D camera for vision-based navigation. A paper is published and Accepted for IEEE CASE 2026",
+      technologies: ["Path Planning", "3D Vision", "ICP Algorithm", "Topology Optimization"],
       highlights: [
         "Novel oblique swivel joint design",
         "Real-time 3D environment reconstruction",
@@ -72,7 +72,7 @@ function App() {
       ],
       image: "",
       links: {
-        Github: "",
+        Video: "https://drive.google.com/file/d/1e8QUqf4p1K2tRbTarAPkW-B59Nwa21l7/view?usp=sharing",
       }
     },
     {
