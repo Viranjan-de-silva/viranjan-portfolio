@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/viranjan-portfolio/static/css/main.7c1a397d.css",
-    "main.js": "/viranjan-portfolio/static/js/main.6641b69a.js",
+    "main.js": "/viranjan-portfolio/static/js/main.f0b1d9e2.js",
     "index.html": "/viranjan-portfolio/index.html",
     "main.7c1a397d.css.map": "/viranjan-portfolio/static/css/main.7c1a397d.css.map",
-    "main.6641b69a.js.map": "/viranjan-portfolio/static/js/main.6641b69a.js.map"
+    "main.f0b1d9e2.js.map": "/viranjan-portfolio/static/js/main.f0b1d9e2.js.map"
   },
   "entrypoints": [
     "static/css/main.7c1a397d.css",
-    "static/js/main.6641b69a.js"
+    "static/js/main.f0b1d9e2.js"
   ]
 }
