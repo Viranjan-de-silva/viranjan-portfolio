@@ -73,7 +73,7 @@ function App() {
       ],
       image: "",
       links: {
-        Github: "",
+        Project_Demo: "https://drive.google.com/file/d/1e8QUqf4p1K2tRbTarAPkW-B59Nwa21l7/view?usp=sharing",
       }
     },
     {
